@@ -24,7 +24,8 @@
 
 - El archivo `.eslintrc.json` configura ESLint para aplicar ciertas reglas y establecer un estándar en el código. A continuación, se detalla cada línea del archivo proporcionado:
 
-```json
+``json
+
 {
   "env": {
     "browser": true,
@@ -48,21 +49,25 @@
 ## Explicación línea por línea del archivo `.eslintrc.json`
 
 ### `"env"`  
+
 Define los entornos en los que el código se ejecutará.  
 
 - `"browser": true`: Permite las variables globales disponibles en navegadores, como `window` y `document`.  
 - `"es2021": true`: Habilita características de ECMAScript 2021, como operadores lógicos avanzados y nuevos métodos.  
 
 ### `"extends"`  
+
 - `["eslint:recommended"]`: Usa las reglas básicas recomendadas por ESLint, como detección de errores comunes y mejores prácticas.  
 
 ### `"parserOptions"`  
+
 Configura cómo ESLint analiza el código.  
 
 - `"ecmaVersion": "latest"`: Permite utilizar las características más recientes de ECMAScript.  
 - `"sourceType": "module"`: Permite el uso de módulos ES6, es decir, `import` y `export`.  
 
 ### `"rules"`  
+
 Define reglas personalizadas para el análisis del código.  
 
 - `"indent": ["error", 2]`: Obliga a usar una indentación de 2 espacios. Si no se cumple, se genera un error.  
@@ -73,7 +78,5 @@ Define reglas personalizadas para el análisis del código.
 - `"no-console": "warn"`: Genera una advertencia cuando se usa `console.log` u otros métodos de consola. Esto es útil para evitar dejar mensajes de depuración en el código final.  
 
 ### Conclusión  
+
 Este archivo garantiza que el código siga estándares consistentes, previniendo errores comunes y promoviendo buenas prácticas.
-
-
-
