@@ -24,7 +24,6 @@
 
 - El archivo `.eslintrc.json` configura ESLint para aplicar ciertas reglas y establecer un estándar en el código. A continuación, se detalla cada línea del archivo proporcionado:
 
-```json
 {
   "env": {
     "browser": true,
@@ -44,10 +43,6 @@
     "no-console": "warn"
   }
 }
-
-
-
-## Explicación línea por línea del archivo `.eslintrc.json`
 
 ### `"env"`  
 
