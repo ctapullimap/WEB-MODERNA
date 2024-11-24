@@ -9,7 +9,7 @@
 
 - Sobre el Proyecto
 
-## "La Web Moderna" es una iniciativa que explora las tecnologías y prácticas actuales en el desarrollo web. Este proyecto aborda las últimas tendencias y herramientas que definen la construcción de aplicaciones web contemporáneas, incluyendo :
+## "La Web Moderna" es una iniciativa que explora las tecnologías y prácticas actuales en el desarrollo web. Este proyecto aborda las últimas tendencias y herramientas que definen la construcción de aplicaciones web contemporáneas, incluyendo
 
 - Arquitecturas modernas de frontend y backend
 - Frameworks y bibliotecas JavaScript de última generación
